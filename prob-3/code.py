@@ -4,7 +4,6 @@ def prime(n):
     for i in range(uppBound+1,2,-1):
         if (n%i) ==0:
             primes.append(i)
-    print(primes)
     for num in primes:
         if primeTest(num):
             return num 
