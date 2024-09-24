@@ -1,6 +1,6 @@
 # Project Euler Problem #4: Largest Palindrome Product.
 # Description: A palindromic number reads the same both ways. The largest palindrome made from two two-digit numbers is 9009=91x99
-# Goal: Find the largest palindromic number made from three three-digit numbers.
+# Goal: Find the largest palindromic number made from the product of two three-digit numbers.
 
 # First Solution: Algorithm Runtime: O(n^2)
 

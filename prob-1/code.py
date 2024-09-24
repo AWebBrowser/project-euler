@@ -1,5 +1,7 @@
-total=0
-for x in range(1000):
-    if x % 3 == 0 or x % 5 == 0:
-        total=total + x
-print(total)
+def func(x: int)-> int:
+    total=0
+    for i in range(x):
+        if i % 3 == 0 or i % 5 == 0:
+            total+=i
+    return total
+print(func(1000))
